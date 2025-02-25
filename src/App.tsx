@@ -131,6 +131,9 @@ function App() {
         )}
       </div>
     </div>
+    <div className="absolute bottom-4 right-4 text-red-500 text-sm opacity-75">
+  Created by <span className="font-semibold">InnocentDevil</span>
+</div>
   );
 }
 

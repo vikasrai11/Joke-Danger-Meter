@@ -50,7 +50,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black to-red-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-black to-red-900 flex items-center justify-center p-4 relative">
       <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl shadow-2xl shadow-red-500/20 p-8 max-w-2xl w-full relative border border-red-500/10">
         {/* Jail Meter */}
         <div className="absolute left-[-60px] top-1/2 transform -translate-y-1/2 w-12 h-64 bg-zinc-800 rounded-full overflow-hidden shadow-lg shadow-red-500/20">
@@ -130,10 +130,12 @@ function App() {
           </div>
         )}
       </div>
-    </div>
-    <div className="absolute bottom-4 right-4 text-red-500 text-sm opacity-75">
-  Created by <span className="font-semibold">InnocentDevil</span>
-</div>
+
+      {/* Footer Text */}
+      <div className="absolute bottom-4 right-4 text-red-500 text-sm opacity-75">
+        Created by <span className="font-semibold">Innocent Devil</span>
+      </div>
+    </div> 
   );
 }
 
